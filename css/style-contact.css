@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+}
+
+#logo {
+    border-radius: 360%;
+}
+
+.navbar {
+    display: flex;
+    border-left: 1px solid white;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bolder;
+    font-family: Helvetica;
+}
+
+.navbar {
+    background-color: #5b60da;
+    margin-left: 0px;
+    border-left: none;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 2px;
+}
+
+#middle-content {
+    padding-top: 100px;
+    background-color: #5b60da;
+    padding-bottom: 100px;
+    border: 1px solid #5b60da;
+    border-bottom-right-radius: 100px;
+    box-shadow: 1px 1px 10px black;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+.Title {
+    color: white;
+}
+
+#welcome-title {
+    font-weight: bolder;
+}
+
+#aims {
+    font-size: 14px !important;
+}
+
+#content-desc {
+    background-color: #fff;
+    width: 100%;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.service {
+    text-align: center;
+    color: #5b60da;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Service {
+    text-align: center;
+    color: #5b60da;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.content-description {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.content-description p {
+    font-weight: 200;
+    text-align: justify;
+}
+
+#contact-form {
+    background-color: #5b60da;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    padding: 50px;
+}
+
+.btn {
+    background-color: #0accbe !important;
+    color: white !important;
+    width: 100%;
+    font-weight: bold !important;
+}
